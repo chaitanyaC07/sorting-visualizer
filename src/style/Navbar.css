@@ -1,0 +1,80 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #36485a;
+    height: 60px;
+    margin-top: 0px;
+   
+}
+
+
+.Random>div>button{
+    margin-left: 68px;
+    padding: 7px;
+    border-radius: 8px;
+    font-family: cursive;
+}
+.Random>div>button:hover{
+    background-color: #56697b ;
+}
+.slidecontainer{
+    font-family: cursive;
+    align-items: center;
+
+
+    
+  -webkit-appearance: none; 
+  appearance: none;
+  height: 22px;
+  border-radius: 5px;
+  background: white; 
+  outline: none; 
+  /* opacity: 0.7; */
+  transition: opacity 0.2s ease-in-out;
+    
+  
+}
+.slidecontainer::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }
+  .slidecontainer::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }
+.Nav-sorting{
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.Nav-sorting>div{
+    padding: 16px;
+    
+}
+.Nav-sorting>div>button{
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+   cursor: pointer;
+   font-family: cursive;
+   transition: background-color 0.4s ease-in-out;
+  
+}
+.Nav-sorting>div>button:hover{
+
+    background-color: #56697b ;
+    
+}
